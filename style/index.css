@@ -16,18 +16,19 @@ body{
     width: 100%;
     flex-direction: row;
     position: fixed;
-    
     color: var(--very-light-pink);
-    
     padding-bottom: 10px;
     border-bottom: var(--text-input-field) solid 2px;
+    align-items: center;
 }
 
 /*   INICIAR SESION E ICON CARRITO */
 .Sign {
     position: absolute;
     right: 4%;
-    color:var(--hospital-green)
+    color:var(--hospital-green);
+    display:flex;
+    align-items: center;
 }
 .Sign a{
     text-decoration: none;
@@ -64,6 +65,5 @@ li:hover{
 .logo_yard{
     width: 170px;
     padding-left: 40px;
-    padding-bottom: 10px;
 }
 
