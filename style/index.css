@@ -1,0 +1,68 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+}
+
+/*   INICIO NAVBAR */
+.NavBar {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    position: fixed;
+    
+    color: var(--very-light-pink);
+    
+    padding-bottom: 10px;
+    border-bottom: var(--text-input-field) solid 2px;
+}
+
+/*   INICIAR SESION E ICON CARRITO */
+.Sign {
+    position: absolute;
+    right: 4%;
+    color:var(--hospital-green)
+}
+.Sign a{
+    text-decoration: none;
+    
+}
+.Sign a:visited{
+    color: var(--hospital-green)
+}
+.Sign img{
+    padding-left: 25px;
+}
+
+/*   NAVBAR LINKS */
+ul {
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    align-content: center;
+    
+}
+li{
+    position: relative;
+    
+    list-style: none;
+    height: 20px;
+    padding: 10px;
+}
+li:hover{
+    color: var(--hospital-green);
+    border: var(--hospital-green) solid 1.5px;    
+    border-radius: 10px;
+}
+/*   LOGO SALES YARD*/
+.logo_yard{
+    width: 170px;
+    padding-left: 40px;
+}
+
