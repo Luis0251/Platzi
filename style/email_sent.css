@@ -1,0 +1,49 @@
+.container-email{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.email-sent {
+    width: 25%;
+    display: flex;
+    place-items: center;
+    place-self: center;
+    flex-direction: column;
+    
+}
+.email-sent .sent,.check{
+    margin: 1%;
+    text-align: center;
+    
+}
+.email-sent .check{
+    color: var(--very-light-pink);
+}
+
+.email-sent img{
+    content: url("/icons/email.svg");
+    margin: 30%;
+}
+
+.email-sent button{
+    font-size: 110%;
+    height: 55px;
+    margin-bottom: 10%;
+}
+
+.email-sent .receive-email{
+   width: 100%;
+   text-decoration: none;
+   
+}
+
+.email-sent .receive-email:visited{
+    text-decoration-color: none;
+    color: var(--dark);
+}
+
+.email-sent span{
+    color:var(--hospital-green);
+}
