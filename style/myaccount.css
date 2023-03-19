@@ -1,0 +1,46 @@
+.section-form{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-section{
+    padding-right: 150px;
+    padding-bottom:10 ;
+}
+.form-section{
+ display: flex;
+ flex-direction: column;
+}
+
+form label {
+    padding-top: 15px;
+}
+
+form input{
+padding-left: 8px;
+padding-top: 15px;
+padding-bottom: 15px ;
+background-color: var(--text-input-field);
+border-radius: 8px;
+border: none;
+}
+
+form {
+    width: 30%;
+}
+
+button{
+    color: white;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    justify-content:center;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--hospital-green);
+    font-size: 0.50cm;
+}
+
