@@ -13,14 +13,18 @@ body{
 
 /*   INICIO NAVBAR */
 .NavBar {
+    top: 0;
     display: flex;
     width: 100%;
+    height: 6%;
     flex-direction: row;
     position: fixed;
     color: var(--very-light-pink);
     padding-bottom: 10px;
     border-bottom: var(--text-input-field) solid 2px;
     align-items: center;
+    background-color: white;
+    z-index: 10;
 }
 
 /*   INICIAR SESION E ICON CARRITO */
@@ -68,3 +72,83 @@ li:hover{
     padding-left: 40px;
 }
 
+.searcher-button{
+    padding-top: 100px;
+    padding-left: 50px;
+    position: relative;
+    display: flex;
+    width: auto;
+
+}
+.searcher-button input,label,select{
+    width: 100px;
+    position: relative;
+}
+
+.searcher-button select{
+    height: 25px;
+    width: 120px;
+    border: none;
+    background: none;
+    margin-top: 8px;
+}
+
+.searcher-button input{ 
+    margin-right: 200px;
+    width: 330px;
+    height: 43px;
+    border-radius: 10px;
+    border: none;
+    text-indent: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 120%;
+    background-image: url(../icons/magnifying-glass-solid.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.searcher-button label{ 
+    width: 50px;
+    margin-top: 10px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(4, 400px);
+    height: fit-content;
+}
+
+.card-product{
+    width: 230px;
+    height: 320px;
+    margin: 20px;
+}
+
+.card-product .img-product{
+    width: 214px;
+    height: 214px;
+    border-radius: 15px;
+
+}
+
+.price-product{
+    font-size: 120%;
+    font-weight:530;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.name-product{
+    margin: 0;
+    color: gray;
+    font-size: 120%;
+    
+}
+
+.card-product .shopping-cart{
+    position: relative;
+    left: 70%;
+    width: 50px;
+    bottom: 45px;
+}
